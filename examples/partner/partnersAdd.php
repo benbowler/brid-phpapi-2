@@ -8,7 +8,7 @@ try{
 	?>
 	<h2>Json</h2>
     <?php 
-        $post = array('data[Partner][partner_id]'=>13085, 'data[Partner][domain]'=>'example.com');
+        $post = array('data[Partner][domain]'=>'example.com');
 	    $return = $api->post(['partners', 'add'], $post);
 	    print_r($return);
 	?>
