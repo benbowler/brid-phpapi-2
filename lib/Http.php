@@ -4,8 +4,8 @@ class Http{
   // DON'T CHANGE THIS
   const OAUTH_API_KEY    = 'NTM3MzI5MGMwZDFmYjNj';
   const OAUTH_API_SECRET = 'ff187f0b484dd77e8554796b78c750f00b4bf965';
-  const OAUTH_PROVIDER     = 'https://vladan.brid.tv';
-  const API_ENDPOINT       = 'https://vladan.brid.tv/apiv2';
+  const OAUTH_PROVIDER     = 'https://api.brid.tv';
+  const API_ENDPOINT       = 'https://api.brid.tv/apiv2';
   const AUTHORIZATION_PATH = '/api/authorize';
   const TOKEN_PATH         = '/api/token';
   
