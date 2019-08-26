@@ -4,7 +4,7 @@
 require_once('lib/BridApi.php');
 
 try{
-	$api = new BridApi(array('auth_token'=>'b1437c94847d7e19268ad3bda0e46f8f6bc36f45'));
+	$api = new BridApi(array('auth_token'=>'<YOUR_AUTHORIZATION_KEY>'));
 	?>
 	<h2>Json</h2>
     <?php 
