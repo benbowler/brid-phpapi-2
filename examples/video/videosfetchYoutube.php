@@ -8,7 +8,7 @@ try{
 	?>
 	<h2>Json</h2>
     <?php 
-        $post = array('data[url]'=>'<YOUTUBE_VIDEO_URL>', 'data[Video][partner_id]'=><SITE_IDE>,'data[Video][name]'=>'VIDEO_TITLE','data[Video][channel)id]'=><CHANNEL_ID>);
+        $post = array('data[url]'=>'<YOUTUBE_VIDEO_URL>', 'data[Video][partner_id]'=><SITE_ID>,'data[Video][name]'=>'VIDEO_TITLE','data[Video][channel_id]'=><CHANNEL_ID>);
 	    $return = $api->post(['videos', 'fetchYoutube'], $post);
 	    print_r($return);
 	?>
